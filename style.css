@@ -1,0 +1,28 @@
+body {
+    background-color: #FBD5D0; /* Sfondo rosa */
+    color: #A5B8DE; /* Colore del testo */
+    font-family: Arial, sans-serif; /* Font semplice */
+    text-align: center; /* Centra tutto il contenuto */
+    margin: 0; /* Rimuove margini */
+}
+
+h1 {
+    font-size: 3rem; /* Dimensione grande per il titolo principale */
+    margin-top: 50px; /* Distanza dal bordo superiore */
+}
+
+h2 {
+    font-size: 2rem; /* Titolo più piccolo */
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1.2rem; /* Testo normale */
+    margin-top: 20px;
+}
+
+img {
+    max-width: 80%; /* L'immagine occuperà massimo l'80% della larghezza */
+    height: auto; /* Mantiene proporzioni */
+    margin-top: 30px;
+}

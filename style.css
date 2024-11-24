@@ -1,32 +1,46 @@
 body {
-    background-color: #FBD5D0;  /* Sfondo rosa */
-    font-family: Arial, sans-serif;
-    color: #A5B8DE;  /* Colore testo */
-    text-align: center;  /* Allinea tutto al centro */
-    padding: 20px;
+    background-color: #FBD5D0; /* Colore di sfondo rosa */
+    font-family: Arial, sans-serif; /* Font per il testo */
+    display: flex; /* Usa Flexbox per il corpo */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Imposta l'altezza al 100% della finestra */
+    margin: 0; /* Rimuove i margini predefiniti */
+    flex-direction: column; /* Disposizione verticale */
+}
+
+.header-container {
+    display: flex; /* Disposizione orizzontale */
+    align-items: center; /* Allinea gli elementi verticalmente al centro */
+    text-align: center; /* Centra il testo */
+    margin-top: -500px; /* Sposta verso l'alto */
+}
+
+.header-image {
+    width: 250px; /* Larghezza dell'immagine */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    margin-right: 20px; /* Spazio tra l'immagine e il testo */
+}
+
+.header-text {
+    color: #A5B8DE; /* Colore del testo */
 }
 
 h1 {
-    font-size: 3em;  /* Grande titolo */
-    color: #A5B8DE;
+    font-size: 3rem; /* Dimensione del titolo principale */
 }
 
 h2 {
-    font-size: 2em;  /* Titolo più piccolo */
-    color: #A5B8DE;
+    font-size: 2rem; /* Dimensione del sottotitolo */
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin: 20px 0;
+    font-size: 1.2rem; /* Dimensione del testo del motto */
 }
 
-img {
-    max-width: 500px;  /* L'immagine sarà larga al massimo 500px */
-    width: 100%;
-    height: auto;  /* Mantiene le proporzioni */
-    margin-top: 30px;
+.welcome-text {
+    font-size: 1.5rem; /* Dimensione del testo di benvenuto */
+    color: black; /* Colore nero */
+    margin-top: 20px; /* Distanza dal paragrafo precedente */
+    text-align: center; /* Centra il testo */
 }
-
-

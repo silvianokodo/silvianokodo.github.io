@@ -23,7 +23,7 @@ p {
 
 img {
     
-    width: 500px;  /* La larghezza massima sarà di 500px */
+    max-width: 100%;  /* L'immagine si adatta al contenitore */
     height: auto;  /* Mantiene le proporzioni */
     margin-top: 30px;
 }

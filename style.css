@@ -1,28 +1,30 @@
 body {
-    background-color: #FBD5D0; /* Sfondo rosa */
-    color: #A5B8DE; /* Colore del testo */
-    font-family: Arial, sans-serif; /* Font semplice */
-    text-align: center; /* Centra tutto il contenuto */
-    margin: 0; /* Rimuove margini */
+    background-color: #FBD5D0;  /* Sfondo rosa */
+    font-family: Arial, sans-serif;
+    color: #A5B8DE;  /* Colore testo */
+    text-align: center;  /* Allinea tutto al centro */
+    padding: 20px;
 }
 
 h1 {
-    font-size: 3rem; /* Dimensione grande per il titolo principale */
-    margin-top: 50px; /* Distanza dal bordo superiore */
+    font-size: 3em;  /* Grande titolo */
+    color: #333;
 }
 
 h2 {
-    font-size: 2rem; /* Titolo più piccolo */
-    margin-top: 10px;
+    font-size: 2em;  /* Titolo più piccolo */
+    color: #666;
 }
 
 p {
-    font-size: 1.2rem; /* Testo normale */
-    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 20px 0;
 }
 
 img {
-    max-width: 80%; /* L'immagine occuperà massimo l'80% della larghezza */
-    height: auto; /* Mantiene proporzioni */
+    max-width: 500px;  /* L'immagine sarà larga al massimo 500px */
+    width: 100%;
+    height: auto;  /* Mantiene le proporzioni */
     margin-top: 30px;
 }

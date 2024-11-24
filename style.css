@@ -21,9 +21,8 @@ p {
     margin-top: 20px;
 }
 
- img {
+img {
     max-width: 80%; /* L'immagine occuperà massimo l'80% della larghezza */
     height: auto; /* Mantiene proporzioni */
     margin-top: 30px;
 }
-

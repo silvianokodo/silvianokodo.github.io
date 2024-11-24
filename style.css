@@ -22,9 +22,4 @@ p {
     margin: 20px 0;
 }
 
-img {
-    max-width: 500px;  /* L'immagine sarà larga al massimo 500px */
-    width: 100%;
-    height: auto;  /* Mantiene le proporzioni */
-    margin-top: 30px;
-}
+

@@ -1,3 +1,4 @@
+/* Stile generale */
 body {
     background-color: #FBD5D0; /* Colore di sfondo rosa */
     font-family: Arial, sans-serif; /* Font per il testo */
@@ -9,38 +10,94 @@ body {
     flex-direction: column; /* Disposizione verticale */
 }
 
+/* Contenitore dell'intestazione */
 .header-container {
     display: flex; /* Disposizione orizzontale */
+    flex-wrap: wrap; /* Consente la disposizione su più righe */
     align-items: center; /* Allinea gli elementi verticalmente al centro */
     text-align: center; /* Centra il testo */
-    margin-top: -500px; /* Sposta verso l'alto */
+    margin-top: -50px; /* Piccolo offset verso l'alto */
+    padding: 20px;
 }
 
+/* Immagine dell'intestazione */
 .header-image {
-    width: 250px; /* Larghezza dell'immagine */
+    width: 100%; /* Larghezza iniziale piena */
+    max-width: 250px; /* Dimensione massima per schermi grandi */
     height: auto; /* Mantiene le proporzioni dell'immagine */
-    margin-right: 20px; /* Spazio tra l'immagine e il testo */
+    margin-bottom: 20px; /* Spazio per dispositivi piccoli */
+    border-radius: 10px;
 }
 
+/* Testo dell'intestazione */
 .header-text {
     color: #A5B8DE; /* Colore del testo */
+    margin: 10px;
 }
 
 h1 {
-    font-size: 3rem; /* Dimensione del titolo principale */
+    font-size: 2.5rem; /* Dimensione del titolo principale */
 }
 
 h2 {
-    font-size: 2rem; /* Dimensione del sottotitolo */
+    font-size: 1.8rem; /* Dimensione del sottotitolo */
 }
 
 p {
     font-size: 1.2rem; /* Dimensione del testo del motto */
 }
 
+/* Testo di benvenuto */
 .welcome-text {
-    font-size: 1.5rem; /* Dimensione del testo di benvenuto */
+    font-size: 1.2rem; /* Dimensione del testo di benvenuto */
     color: black; /* Colore nero */
     margin-top: 20px; /* Distanza dal paragrafo precedente */
     text-align: center; /* Centra il testo */
+    padding: 10px;
+}
+
+/* Media Queries per dispositivi mobili */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Cambia disposizione in verticale */
+        margin-top: -30px; /* Regola l'offset per schermi medi */
+    }
+
+    h1 {
+        font-size: 2rem; /* Riduci la dimensione del titolo */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Riduci la dimensione del sottotitolo */
+    }
+
+    p {
+        font-size: 1rem; /* Riduci la dimensione del motto */
+    }
+
+    .welcome-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-image {
+        max-width: 200px; /* Ridimensiona ulteriormente l'immagine */
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .welcome-text {
+        font-size: 0.9rem;
+    }
 }
